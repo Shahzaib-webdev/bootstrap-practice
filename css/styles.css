@@ -111,11 +111,15 @@ font-weight: bold;
 
 /* Testimonials Css HEHEHEHEHE */
 #testimonials{
-    padding: 7% 15%;
+    
     text-align: center;
     color: #fff;
     background-color: #ef8172;
 
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 .testimonial-image{
