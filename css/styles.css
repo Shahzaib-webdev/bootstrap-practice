@@ -139,3 +139,55 @@ font-weight: bold;
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+
+
+
+/* Pricing Section*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+
+
+
+
+/* Call to action */
+
+
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 200px;
+    color: #fff;
+}
+
+#cta>h3{
+    font-size: 70px;
+    padding: 5%;
+}
+.btn1 .btn2{
+    display: inline;
+}
+
+
+/* Footer section */
+
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 10%;
+    font-size: xx-large;
+    color: #8f8f8f;
+    font-family: "ubuntu";
+}
