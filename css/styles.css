@@ -1,4 +1,8 @@
 /*Style for top container*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     font-family: "Montserrat";
@@ -10,7 +14,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15% ;
+    padding: 3% 15% 7%;
 }
 
 
@@ -65,12 +69,25 @@ font-weight: bold;
 
 /* title image */
 .title-img{
-    width: 60%;
+    width: 350px;
     transform: rotate(25deg);
-    margin-top: 70px;
-    margin-left: 100px;
+    position: absolute;
+    right: 20%;
+    margin-top: 20px;
 }
 
+@media (max-width:991px) {
+    
+    #title{
+        text-align: center;
+    }
+    
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        
+    }
+}
 
 
 
@@ -85,6 +102,8 @@ font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 #features p{
@@ -165,18 +184,17 @@ font-weight: bold;
 
 #cta{
     background-color: #ff4c68;
-    font-family: "Montserrat";
+    
     text-align: center;
-    padding: 200px;
+    padding: 7% 15%;
     color: #fff;
 }
 
 #cta>h3{
-    font-size: 70px;
-    padding: 5%;
-}
-.btn1 .btn2{
-    display: inline;
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
 }
 
 
@@ -186,8 +204,15 @@ font-weight: bold;
 #footer{
     background-color: #fff;
     text-align: center;
-    padding: 10%;
-    font-size: xx-large;
+    padding: 7% 15%;
     color: #8f8f8f;
-    font-family: "ubuntu";
+    font-size: x-large;
+    font-family: "Ubuntu";
+}
+
+
+.footer-icons{
+    
+    margin: 20px 10px;
+    color: black;
 }
